@@ -1,11 +1,11 @@
-Día 1: Creación de Usuario Linux con Shell No Interactivo
-🎯 Objetivo
+# Día 1: Creación de Usuario Linux con Shell No Interactivo
+# 🎯 Objetivo
 Crear un usuario Linux sin acceso interactivo para uso de servicios o automatización, evitando logins por shell.
 
-🧠 Contexto
+# 🧠 Contexto
 Los usuarios de servicio no deberían iniciar sesión de forma interactiva. Asignar un shell como /sbin/nologin o /usr/sbin/nologin mejora la seguridad y cumple buenas prácticas.
 
-🛠️ Paso a paso
+# 🛠️ Paso a paso
 1️⃣ Conectarse al servidor
 Accedé al servidor indicado por el reto con un usuario con privilegios sudo:
 
@@ -34,7 +34,7 @@ rose:x:1005:1005::/home/rose:/sbin/nologin
 Si el reto requiere directorio home:
 
 sudo useradd -m -s /sbin/nologin rose
-Verificar:
+# Verificar:
 
 ls -ld /home/rose
 ❌ Errores comunes
