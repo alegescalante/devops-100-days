@@ -1,7 +1,7 @@
 ## Mis 100 días
-* [x] [Día 1: Creación de usuario Linux con shell no interactivo](./Day1.md)
-* [x] [Día 2: Usuario temporal con fecha de expiración](./Day02.md)
-* [x] [Día 3: Deshabilitar acceso SSH directo como root](./Day03.md)
+* [x] [Día 1: Creación de usuario Linux con shell no interactivo](./Day01/Day1.md)
+* [x] [Día 2: Usuario temporal con fecha de expiración](./Day02/Day02.md)
+* [x] [Día 3: Deshabilitar acceso SSH directo como root](./Day03/Day03.md)
 - [Día 4: Permisos de ejecución para scripts](./Day04_Script_Execution_Permissions/README.md)
 - [Día 5: Instalación y configuración de SELinux](./Day05_SElinux_Installation_and_Configuration/README.md)
 - [Día 6: Crear un cron job](./Day06_Create_a_Cron_Job/README.md)
